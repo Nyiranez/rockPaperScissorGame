@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+.choices button{
+    background-color: hsl(200, 100%, 50%);
+    font-size: 7.5rem;
+    min-width: 160px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    margin-bottom: 30px;
+   
+
+}
+.choices button:hover{
+    background-color:  hsl(200, 100%, 80%);
+}
+.answers div{
+    margin: 8px;
+}
